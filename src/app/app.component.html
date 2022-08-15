@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Tela de Login DTI</title>
+     <style>
+         
+     </style>
+ </head>
+ <body>
+     <div class="logo-dti">
+     </div>
+      <div class="tela-login">
+         <h1>Login</h1>
+     <div class="form-group">
+         <input type="text" placeholder="Usuário" class="campo-usuario" [(ngModel)]="usuario">
+         <br><br>
+         <input type="password" placeholder="Senha" class="campo-senha" [(ngModel)]="senha">
+         <br><br>
+         <button (click)="ValidaUsuario()">Acessar</button>
+         </div>
+     </div>
+ </body>
+
+</html>
